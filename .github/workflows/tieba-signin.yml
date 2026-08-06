@@ -3,7 +3,7 @@ name: 百度贴吧自动签到
 on:
   schedule:
     - cron: '0 2,3 * * *' # 北京时间凌晨2，3点各执行一次
-    timezone: Asia/Shanghai
+      timezone: Asia/Shanghai
   workflow_dispatch:     # 支持手动触发
 
 jobs:
