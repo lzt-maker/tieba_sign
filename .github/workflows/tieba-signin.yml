@@ -2,8 +2,8 @@ name: 百度贴吧自动签到
 
 on:
   schedule:
-    - cron: '0 2,3 * * *' # 北京时间凌晨2，3点各执行一次
-      timezone: Asia/Shanghai
+    - cron: '0 9 * * *' # 测试两天了一直有bug，设置的0 2 它下午7点给我通知了。我推测这个时间-7就是北京时间。
+
   workflow_dispatch:     # 支持手动触发
 
 jobs:
