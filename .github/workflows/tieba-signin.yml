@@ -2,7 +2,7 @@ name: 百度贴吧自动签到
 
 on:
   schedule:
-    - cron: '35 2 * * *' # 测试两天了一直有bug，设置的0 2 它下午7点给我通知了。
+    - cron: 35 2 * * *
 
   workflow_dispatch:     # 支持手动触发
 
