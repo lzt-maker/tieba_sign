@@ -2,7 +2,7 @@ name: 百度贴吧自动签到
 
 on:
   schedule:
-    - cron: 35 2 * * *
+    - cron: '35 16 * * *'
 
   workflow_dispatch:     # 支持手动触发
 
